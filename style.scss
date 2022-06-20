@@ -1,0 +1,65 @@
+/*variables*/
+
+
+$estiloFondo:linear-gradient(white, rgb(61, 57, 57));  /*variable backgroud*/
+%bordes {border: 2px black ridge ;}
+
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .mainContacto{ height: 50em; @extend %bordes }
+  .formContacto{height: 45em; }
+  .altItem{height: 450px;}
+
+@mixin fontTitu {font-family: "Pacifico", cursive;}
+
+
+  
+  
+  header{height: 17em;
+       
+     div{ 
+        div {@include fontTitu();
+            h1{font-size: 5em; font-family: "Pacifico", cursive;line-height: 5,2em; margin-bottom: 0; }
+            h3{font-size: 2em; color: black; line-height: 2,2em; margin: 0; border: 0;}
+                }}}
+  .placeholder-wave{padding: 0%;margin: 0%;}
+          
+  .tituHoja{
+            animation-name: resaltar;
+            animation-duration: 3s;
+            animation-iteration-count: infinite}
+
+
+  body{background: $estiloFondo;
+       height: 118em; }
+  
+footer {@extend %bordes}
+
+
+ .col {display: flex ; justify-content: center;align-content: center;}
+
+
+
+
+  .rot:hover{ transform: scale(1.5); }
+ 
+  
+  .carousel-inner{padding-left: 11rem ;padding-right:5em;}
+  
+  
+   @keyframes resaltar {
+       0%{text-shadow: 0;}
+       50%{text-shadow: 1px 1px 2px black, 0 0 1em rgb(8, 8, 58), 0 0 0.2em rgb(91, 91, 110);
+          color: white;}
+       100%{text-shadow: 0;}
+       
+   }           
+  
+
+
+   .size{height: 40rem;}
+
+.imgIndex{width: 100%}
+

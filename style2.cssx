@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.mainContacto {
+  height: 800px;
+}
+
+.formContacto {
+  height: 700px;
+}
+
+.altItem {
+  height: 450px;
+}
+
+.tituPrinc {
+  font-family: 'Pacifico', cursive;
+  font-size: 5em;
+}
+
+.tituHoja {
+  font-family: 'Pacifico', cursive;
+  font-size: 2em;
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(#3d3939));
+  background: linear-gradient(white, #3d3939);
+}
+
+.rot:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.tituHoja {
+  -webkit-animation-name: resaltar;
+          animation-name: resaltar;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes resaltar {
+  0% {
+    text-shadow: 0;
+  }
+  50% {
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    color: white;
+  }
+  100% {
+    text-shadow: 0;
+  }
+}
+
+@keyframes resaltar {
+  0% {
+    text-shadow: 0;
+  }
+  50% {
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    color: white;
+  }
+  100% {
+    text-shadow: 0;
+  }
+}
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,4 @@
+se pone infromacion correcta el title del <head> en todas las paginas
+se completan las etiquetas {meta keyword y description} de todas las paginas
+se utiliza @mixin para la fuente del titulo de cada pagina fontTitu
+se utiliza @extend para poner bordes al footer de cada pagina
